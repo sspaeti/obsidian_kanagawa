@@ -113,20 +113,21 @@
     --text-title-h6:              var(--neutral-blue);
     --text-link:                  var(--springBlue);
     --text-a:                     var(--crystalBlue);
-    --text-a-hover:               var(--oldWhite);
+    --text-a-hover:               var(--peachRed);
     --text-mark:                  rgba(34, 50, 73, 0.4); /* waveBlue1 */
     --pre-code:                   var(--sumiInk0);
     --text-highlight-bg:          var(--waveBlue1);
-    --interactive-accent:         var(--crystalBlue);
+    --interactive-accent:         var(--dragonBlue); /* vim cursor background AND highilight on right*/
     --interactive-before:         var(--sumiInk4);
     --background-modifier-border: var(--sumiInk2);
     --text-accent:                var(--autumnGreen);
     --interactive-accent-rgb:     var(--springGreen);
     --inline-code:                var(--fujiGray);
     --code-block:                 var(--fujiGray);
-    --vim-cursor:                 var(--fujiWhite);
+    --vim-cursor-backgroung:      var(--fujiWhite);
+    --vim-cursor-color:           var(--sumiInk1);
     --text-selection:             rgba(34, 50, 73, 0.5); /* waveBlue1 */
-    --text-tag:                   var(--bright-aqua);
+    --text-tag:                   var(--springViolet1);
     --task-checkbox:              var(--sumiInk4);
     --table-header:               hsl(0, 0%, 14%);
     --table-row-even:             hsl(0, 0%, 17%);
@@ -578,7 +579,8 @@ h6 a
 
 .CodeMirror-cursor
 {
-    background-color: var(--vim-cursor) !important;
+    background-color: var(--vim-cursor-background) !important;
+    color: var(--vim-cursor-color) !important;
     opacity: 60% !important;
 }
 
