@@ -112,8 +112,9 @@
     --text-title-h5:              var(--neutral-aqua);
     --text-title-h6:              var(--neutral-blue);
     --text-link:                  var(--springBlue);
-    --text-a:                     var(--crystalBlue);
+    --text-a:                     var(--dragonBlue);
     --text-a-hover:               var(--peachRed);
+    --text-a-url:                 var(--dragonBlue); /*hover internal link, graph view link and standalone links*. External Links no*/
     --text-mark:                  rgba(34, 50, 73, 0.4); /* waveBlue1 */
     --pre-code:                   var(--sumiInk0);
     --text-highlight-bg:          var(--waveBlue1);
@@ -122,7 +123,7 @@
     --background-modifier-border: var(--sumiInk2);
     --text-accent:                var(--autumnGreen);
     --interactive-accent-rgb:     var(--springGreen);
-    --inline-code:                var(--fujiGray);
+    --inline-code:                var(--springGreen);
     --code-block:                 var(--fujiGray);
     --vim-cursor-backgroung:      var(--fujiWhite);
     --vim-cursor-color:           var(--sumiInk1);
@@ -160,7 +161,7 @@ body {
 }
 .graph-view.color-text
 {
-    color: var(--text-a-hover) !important;
+    color: var(--text-a-url) !important;
 }
 /*
 .graph-view.color-fill
@@ -195,7 +196,7 @@ a:hover,
 .cm-hmd-internal-link:hover,
 .cm-url
 {
-    color: var(--text-a-hover) !important;
+    color: var(--text-a-url) !important;
     text-decoration: none !important;
 }
 
