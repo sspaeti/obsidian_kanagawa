@@ -1,5 +1,5 @@
-# Obsidian + kanagawa
-This is a [kanagawa](https://github.com/rebelot/kanagawa.nvim) theme for [Obsidian](https://obsidian.md/). It supports dark and light mode.
+# Obsidian Kanagawa
+This is a [Kanagawa](https://github.com/rebelot/kanagawa.nvim) theme for [Obsidian](https://obsidian.md/). It supports dark and light mode.
 
 Installation: Simply search `Kanagawa` in the Obsidian Communitiy Themes and Install. Or if manually, copy the `obsidian.css` file to your vault directory and reload Obsidian for it to take effect.
 
