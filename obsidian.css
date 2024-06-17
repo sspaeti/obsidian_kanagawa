@@ -1,5 +1,6 @@
 :root
 {
+    /* DARK THEME */
     /* Kanagawa from https://github.com/rebelot/kanagawa.nvim */
     /* Bg Shades*/
     --sumiInk0      : #16161D;
@@ -95,6 +96,51 @@
     --faded-aqua:     #427b58;
     --faded-orange:   #af3a03;
 
+
+    /* LIGHT THEME */
+    /* Called Kanagawa Lotus - Colors */
+    --lotusInk1: #545464;
+    --lotusInk2: #43436c;
+    --lotusGray: #dcd7ba;
+    --lotusGray2: #716e61;
+    --lotusGray3: #8a8980;
+    --lotusWhite0: #d5cea3;
+    --lotusWhite1: #dcd5ac;
+    --lotusWhite2: #e5ddb0;
+    --lotusWhite3: #f2ecbc;
+    --lotusWhite4: #e7dba0;
+    --lotusWhite5: #e4d794;
+    --lotusViolet1: #a09cac;
+    --lotusViolet2: #766b90;
+    --lotusViolet3: #c9cbd1;
+    --lotusViolet4: #624c83;
+    --lotusBlue1: #c7d7e0;
+    --lotusBlue2: #b5cbd2;
+    --lotusBlue3: #9fb5c9;
+    --lotusBlue4: #4d699b;
+    --lotusBlue5: #5d57a3;
+    --lotusGreen: #6f894e;
+    --lotusGreen2: #6e915f;
+    --lotusGreen3: #b7d0ae;
+    --lotusPink: #b35b79;
+    --lotusOrange: #cc6d00;
+    --lotusOrange2: #e98a00;
+    --lotusYellow: #77713f;
+    --lotusYellow2: #836f4a;
+    --lotusYellow3: #de9800;
+    --lotusYellow4: #f9d791;
+    --lotusRed: #c84053;
+    --lotusRed2: #d7474b;
+    --lotusRed3: #e82424;
+    --lotusRed4: #d9a594;
+    --lotusAqua: #597b75;
+    --lotusAqua2: #5e857a;
+    --lotusTeal1: #4e8ca2;
+    --lotusTeal2: #6693bf;
+    --lotusTeal3: #5a7785;
+    --lotusCyan: #d7e3d8;
+
+
 }
 
 .theme-dark
@@ -137,11 +183,47 @@
     --bold-color:                 var(--light1);
 }
 
-.theme-light,
+.theme-light {
+    --background-primary:         var(--lotusWhite3);
+    --background-primary-alt:     var(--lotusWhite4);
+    --background-secondary:       var(--lotusWhite1);
+    --background-secondary-alt:   var(--lotusWhite2);
+    --text-normal:                var(--lotusInk1);
+    --text-faint:                 var(--lotusGray3);
+    --text-title-h1:              var(--lotusRed);
+    --text-title-h2:              var(--lotusOrange);
+    --text-title-h3:              var(--lotusYellow);
+    --text-title-h4:              var(--lotusGreen);
+    --text-title-h5:              var(--lotusAqua);
+    --text-title-h6:              var(--lotusBlue4);
+    --text-link:                  var(--lotusBlue5);
+    --text-a:                     var(--lotusTeal1);
+    --text-a-hover:               var(--lotusRed);
+    --text-a-url:                 var(--lotusTeal2); /*hover internal link, graph view link and standalone links*. External Links no*/
+    --text-mark:                  rgba(183, 208, 174, 0.4); /* lotusGreen3 */
+    --pre-code:                   var(--lotusGray);
+    --text-highlight-bg:          var(--lotusBlue2);
+    --interactive-accent:         var(--lotusBlue3); /* vim cursor background AND highilight on right*/
+    --interactive-before:         var(--lotusGray2);
+    --background-modifier-border: var(--lotusBlue3);
+    --text-accent:                var(--lotusGreen);
+    --interactive-accent-rgb:     var(--lotusGreen);
+    --inline-code:                var(--lotusGreen);
+    --code-block:                 var(--lotusGray3);
+    --vim-cursor-backgroung:      var(--lotusGray);
+    --vim-cursor-color:           var(--lotusInk1);
+    --text-selection:             rgba(183, 208, 174, 0.5); /* lotusGreen3 */
+    --text-tag:                   var(--lotusViolet1);
+    --task-checkbox:              var(--lotusGray2);
+    --table-header:               hsl(42, 33%, 91%);
+    --table-row-even:             hsl(42, 35%, 94%);
+    --table-row-odd:              hsl(42, 37%, 97%);
+    --table-hover:                var(--lotusWhite1);
+    --bold-color:                 var(--lotusInk1);
+}
 
 body {
     --font-text-theme: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
-
     --font-monospace-theme: 'Hack Nerd Font', 'Source Code Pro', ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
 }
 
