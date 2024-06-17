@@ -4,11 +4,11 @@ This is a [Kanagawa](https://github.com/rebelot/kanagawa.nvim) theme for [Obsidi
 Installation: Simply search `Kanagawa` in the Obsidian Communitiy Themes and Install. Or if manually, copy the `obsidian.css` file to your vault directory and reload Obsidian for it to take effect.
 
 ## Dark Mode
-![](dark.png)
+![](dark_high.png)
 
 ## Light Mode (Lotus)
 
-![](light.png)
+![](light_high.png)
 
 ### Bump Version
 
