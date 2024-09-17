@@ -140,6 +140,10 @@
     --lotusTeal3: #5a7785;
     --lotusCyan: #d7e3d8;
 
+    --soft-white: #F8F8F8; /*This is very close to white but slightly softer, reducing eye strain.*/
+    --warm-off-white: #F5F5F0; /*This has a slight warm tint that many find comfortable for long reading/writing sessions.*/
+    --cool-off-white: #F0F5F5; /*A very subtle cool tint that some find soothing.*/
+    --paper-like: #F2EFE9; /*This mimics the color of high-quality paper, which many find natural and easy on the eyes.*/
 
 }
 
@@ -184,10 +188,18 @@
 }
 
 .theme-light {
-    --background-primary:         var(--lotusWhite3);
+    /* original lotus */
+    /* --background-primary:         var(--lotusWhite3); */
+    /* --background-primary-alt:     var(--lotusWhite4); */
+    /* --background-secondary:       var(--lotusWhite1); */
+    /* --background-secondary-alt:   var(--lotusWhite2); */
+
+    /* new preferred light colors */
+    --background-primary:         var(--paper-like);
     --background-primary-alt:     var(--lotusWhite4);
-    --background-secondary:       var(--lotusWhite1);
-    --background-secondary-alt:   var(--lotusWhite2);
+    --background-secondary:       var(--soft-white);
+    --background-secondary-alt:   var(--lotusWhite3);
+
     --text-normal:                var(--lotusInk1);
     --text-faint:                 var(--lotusGray3);
     --text-title-h1:              var(--lotusRed);
@@ -213,7 +225,7 @@
     --vim-cursor-backgroung:      var(--lotusGray);
     --vim-cursor-color:           var(--lotusInk1);
     --text-selection:             rgba(183, 208, 174, 0.5); /* lotusGreen3 */
-    --text-tag:                   var(--lotusViolet1);
+    --text-tag:                   var(--lotusAqua);
     --task-checkbox:              var(--lotusGray2);
     --table-header:               hsl(42, 33%, 91%);
     --table-row-even:             hsl(42, 35%, 94%);
