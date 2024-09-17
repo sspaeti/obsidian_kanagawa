@@ -6,7 +6,7 @@ Installation: Simply search `Kanagawa` in the Obsidian Communitiy Themes and Ins
 ## Dark Mode
 ![](dark_high.png)
 
-## Light Mode (Lotus)
+## Light Mode (Lotus with Paper-White-Background)
 
 ![](light_high.png)
 
